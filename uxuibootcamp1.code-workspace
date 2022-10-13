@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "17.3_activities"
+		},
+		{
+			"path": "17.2-activities"
+		},
+		{
+			"path": "index.html"
+		},
+		{
+			"path": "18.1-activities"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "18.1-activities"
+	}
+}
