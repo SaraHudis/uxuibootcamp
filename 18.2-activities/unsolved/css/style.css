@@ -186,3 +186,40 @@ h4 {
   border: 5px;
 }
 
+@media only screen and (max-width: 1000px) {
+  #navigation {
+    display: none;
+  }
+  .icons {
+    margin-left: auto;
+  }
+
+  }
+
+@media only screen and {(max-width: 600px;){
+#headline{
+position: static;
+margin: 20px;
+}
+
+#herogrid{
+  grid-template-areas: 
+“featuredProduct featuredProduct”
+“secondaryProduct CTA”
+}
+
+#categoryGrid {
+  grid-template-rows: 300px 300px 300px 300px 300px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "Bookcases"
+  "Bedroom"
+  "Patio"
+  "Couches"
+  "Desks"
+  ;
+}
+  }
+    
+  }
+  
