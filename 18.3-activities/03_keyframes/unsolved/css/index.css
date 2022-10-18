@@ -19,7 +19,7 @@
   width: 40%;
   height: 20px;
   border-radius: 5px;
-  animation: loadBar 4s;
+  animation: loadBar 4s infinite;
   animation-fill-mode: forwards;
   /* add the animation name here for the progress bar */
 }
@@ -28,7 +28,7 @@
   height: 50px;
   background-color: red;
   /* Add the animation name here to mox the box */
-animation: movingBox 5s;
+animation: movingBox 5s infinite;
 }
 
 
