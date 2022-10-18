@@ -1,0 +1,89 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  font-family: helvetica, arial, sans-serif;
+  color: white;
+  grid-template-areas:
+  "hover"
+  "disabled"
+  ;
+  height: 500px;
+}
+.hoverMe {
+  grid-area: hover;
+  background-color: red;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: all 0.3s;
+  /* Add the css property transition here! */
+
+}
+/* active state */
+.hoverMe:hover {
+  background-color: blueviolet;
+  width: 200px;
+  height: 100px;
+  /* Add your hover state css here. */
+}
+
+.boxes {
+  padding: 20px;
+}
+
+.box {
+  grid-area: hover;
+  background-color: green;
+  width: 250px;
+  text-align: center;
+  align-items: center;
+  height: 150px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+
+.box:hover {
+  width: 300px;
+}
+
+.boxShrink {
+grid-area: hover;
+margin:auto
+padding: 20px;
+background-color: blue;
+width: 250px;
+height: 150px;
+margin-bottom: 20px;
+}
+
+.boxShrink:hover{
+  width: 150px;
+  height: 50px;
+}
+
+.boxShadow {
+  grid-area: hover;
+  margin:auto
+  padding: 20px;
+  background-color: green;
+  width: 250px;
+  height: 150px;
+  filter: drop-shadow(0px);
+  margin-bottom: 20px;
+  transform: translate(0px, 0px);
+  border-style: solid;
+  border-width: 0px;
+  border-color: blue;
+
+}
+
+.boxShadow:hover {
+    transform: translate(-5px, -5px);
+    border-width: 2px;
+    border-color: red;
+    filter: drop-shadow(5px 5px 0px blue);
+}
