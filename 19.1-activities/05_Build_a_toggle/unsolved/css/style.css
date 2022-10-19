@@ -1,0 +1,32 @@
+/* Style your dropdown below! */
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #dropDown {
+    display: none;
+  }
+  #toggle {
+    background-color: #ee6565;
+    padding: 20px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  ul {
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+  }
+  li {
+    margin:0;
+    padding: 15px;
+    border: 3px solid black;
+    cursor: pointer;
+  }
+  img {
+    width: 20px;
+  }
