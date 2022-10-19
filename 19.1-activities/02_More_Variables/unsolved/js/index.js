@@ -22,5 +22,5 @@ var cat = 'cat';
 var tacoCat = 'taco' + ' ' + 'cat';
 
 alert('tacocat');
-
-stringConcat()
+}
+stringConcat();
