@@ -5,6 +5,15 @@ p {
   font-family: 'Jura', sans-serif;
 }
 
+.btn {
+  background-color: #ee585f;
+  border: 1px solid #f2f2f2;
+}
+
+h1 {
+  text-shadow: 2px 2px #ff0000;
+}
+
 .customNav {
   position: fixed;
   width: 100%;
@@ -58,6 +67,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 
 .jumboCopy {
   width: 70%;
