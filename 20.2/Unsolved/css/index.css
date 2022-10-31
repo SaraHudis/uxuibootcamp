@@ -10,6 +10,10 @@ p {
   border: 1px solid #f2f2f2;
 }
 
+.btn:hover {
+  background-color: #2f7986
+}
+
 h1 {
   text-shadow: 2px 2px #ff0000;
 }
@@ -99,7 +103,7 @@ h1 {
 }
 
 .sideAccent {
-  background: #007bff;
+  background: ##2f7986;
   width: 15px
 }
 
