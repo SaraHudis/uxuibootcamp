@@ -1,0 +1,10 @@
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.col {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
